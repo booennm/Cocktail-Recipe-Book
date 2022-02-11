@@ -1,0 +1,36 @@
+div {
+    margin-left: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 50vh;
+    height: 100%;
+    display: inline;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-container img {
+    width: 20vw;
+    height: 20vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.ingredients {
+    display: inline;
+}
+
+.instructions {
+    margin-top: 5em;
+    padding-right: 10vw;
+}
