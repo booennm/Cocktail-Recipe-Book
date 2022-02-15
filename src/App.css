@@ -4,6 +4,92 @@ div {
 
 h1 {
     text-align: center;
+    font-family: 'Roboto Serif', sans-serif;
+    font-style: italic;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1em;
+    margin-right: 2em;
+}
+
+button {
+    border: 0;
+    border-radius: 2px;
+    padding: 0;
+    height: 15vw;
+    width: 28vw;
+    color: white;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 2em;
+}
+
+.ordinary {
+    background-image: radial-gradient(60% 40% at center, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("./images/old-fashioned.jpg");
+    background-size: cover;
+}
+
+.cocktail {
+    background-image: radial-gradient(60% 40% at center, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("./images/cocktail.jpg");
+    background-size: cover;
+}
+
+.shake {
+    background-image: radial-gradient(60% 40% at center, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("./images/milkshake.jpg");
+    background-size: cover;
+}
+
+.cocoa {
+    background-image: radial-gradient(60% 40% at center, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("./images/cocoa.jpg");
+    background-size: cover;
+}
+
+.shot {
+    background-image: radial-gradient(60% 40% at center, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("./images/shots.jpg");
+    background-size: cover;
+}
+
+.coffee {
+    background-image: radial-gradient(60% 40% at center, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("./images/coffee.jpg");
+    background-size: cover;
+}
+
+.liqueur {
+    background-image: radial-gradient(60% 40% at center, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("./images/cider.jpg");
+    background-size: cover;
+    font-size: 1.2em;
+}
+
+.party {
+    background-image: radial-gradient(60% 40% at center, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("./images/sangria.jpg");
+    background-size: cover;
+}
+
+.beer {
+    background-image: radial-gradient(60% 40% at center, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("./images/beer.jpg");
+    background-size: cover;
+}
+
+.softdrink {
+    background-image: radial-gradient(60% 40% at center, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("./images/coke.jpg");
+    background-size: cover;
+    font-size: 1.2em;
+}
+
+.other {
+    background-image: radial-gradient(60% 40% at center, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url("./images/lassi.jpg");
+    background-size: cover;
+}
+
+.back {
+    width: fit-content;
+    height: fit-content;
+    color: #666;
+    font-size: medium;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 1em;
 }
 
 img {
@@ -15,11 +101,26 @@ img {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
+    margin-right: 3em;
+    row-gap: 1em;
 }
 
 .grid-container img {
+    margin-top: 1em;
     width: 20vw;
     height: 20vw;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item p{
+    width: 20vw;
+    text-align: center;
+    padding-left: 3vw;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .flex {
@@ -28,9 +129,23 @@ img {
 
 .ingredients {
     display: inline;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: rgb(135, 152, 170);
+    text-align: center;
 }
 
 .instructions {
-    margin-top: 5em;
-    padding-right: 10vw;
+    margin-top: 1em;
+    margin-right: 10vw;
+    margin-bottom: 5em;
+    margin-left: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: darkseagreen;
 }
